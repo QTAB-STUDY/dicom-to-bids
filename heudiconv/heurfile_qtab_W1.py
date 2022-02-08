@@ -1,5 +1,5 @@
 # Heuristic file for Heudiconv dicom conversion - QTAB W1
-# Author Lachlan Strike (w/ help from Liza van Eijk, Steffen Bollman, Thomas Shaw)
+# Author Lachlan Strike (w/ help from Liza van Eijk, Steffen Bollmann, Thomas Shaw)
 
 import os
 def create_key(template, outtype=('nii.gz',), annotation_classes=None):
