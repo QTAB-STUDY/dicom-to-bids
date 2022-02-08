@@ -9,7 +9,7 @@ module load singularity/2.5.2
 code_dir=/home/"$USER"/bin/qtab/data_management
 data_dir="$TMPDIR"/raw_W2
 BIDS_dir=/scratch/user/"$USER"/data_management/BIDS_sorted
-container_dir=/scratch/user/"$USER"/containers/
+container_dir=/scratch/user/"$USER"/containers
 
 cd ${data_dir} || exit
  for subjID in *; do
