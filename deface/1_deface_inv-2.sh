@@ -9,4 +9,4 @@
 module load singularity/2.5.2
 BIDS_dir=/scratch/user/"$USER"/data_management/BIDS_deface
 
-singularity run --cleanenv --bind ${BIDS_dir}:/BIDSdir /scratch/user/"$USER"/containers/bidsonym.simg /BIDSdir group --deid mridefacer --brainextraction nobrainer --skip_bids_validation
+singularity run --cleanenv --bind ${BIDS_dir}:/BIDSdir /scratch/user/"$USER"/containers/bidsonym_v0.0.3.simg /BIDSdir group --deid mridefacer --brainextraction nobrainer --skip_bids_validation
