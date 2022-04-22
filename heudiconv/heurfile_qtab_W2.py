@@ -35,7 +35,7 @@ def infotodict(seqinfo):
     emot_task = create_key('sub-{subject}/{session}/func/sub-{subject}_{session}_task-emotionalconflict_bold')
     fmap_AP = create_key('sub-{subject}/{session}/fmap/sub-{subject}_{session}_dir-AP_epi')
     fmap_PA = create_key('sub-{subject}/{session}/fmap/sub-{subject}_{session}_dir-PA_epi')
-    asl_M0 = create_key('sub-{subject}/{session}/perf/sub-{subject}_{session}_asl_m0scan')
+    asl_M0 = create_key('sub-{subject}/{session}/perf/sub-{subject}_{session}_m0scan')
     asl = create_key('sub-{subject}/{session}/perf/sub-{subject}_{session}_asl')
     
     info = {t1w_uniden: [], t1w_uni: [], t1w_inv1: [], t1w_inv2: [], partly_cloudy: [], emot_task: [], t2w: [], flair: [], t2w_TSE: [], swi: [], swi_mag: [], 

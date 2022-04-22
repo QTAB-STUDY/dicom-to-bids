@@ -31,7 +31,7 @@ def infotodict(seqinfo):
     dwi_PA_2 = create_key('sub-{subject}/{session}/dwi/sub-{subject}_{session}_dir-PA_run-02_dwi')
     rest_AP = create_key('sub-{subject}/{session}/func/sub-{subject}_{session}_task-rest_dir-AP_bold')
     rest_PA = create_key('sub-{subject}/{session}/func/sub-{subject}_{session}_task-rest_dir-PA_bold')
-    asl_M0 = create_key('sub-{subject}/{session}/perf/sub-{subject}_{session}_asl_m0scan')
+    asl_M0 = create_key('sub-{subject}/{session}/perf/sub-{subject}_{session}_m0scan')
     asl = create_key('sub-{subject}/{session}/perf/sub-{subject}_{session}_asl')
     
     info = {t1w_uniden: [], t1w_uni: [], t1w_inv1: [], t1w_inv2: [], t2w: [], flair: [], t2w_TSE: [], swi: [], swi_mag: [], 
